@@ -1,0 +1,8 @@
+html {
+    background:radial-gradient(black, lightgrey) no-repeat;
+    background-size: 95vw 90vh ;
+    background-position: center 10px;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+  }
