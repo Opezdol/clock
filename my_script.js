@@ -1,6 +1,6 @@
-const button  = document.querySelector(button);
-button.addEventListener('onClick', () => {
-    console.log('Cicked')
-    const hour = document.querySelector('.hour-hand');
-    button.toggleClass('rotate');
+const button  = document.querySelector('button');
+button.addEventListener('click', () => {
+    console.log('clicked button!');
+    const minHand = document.querySelector('.min-hand');
+    minHand.classList.toggle('rotate');
 })
